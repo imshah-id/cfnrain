@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.25.5](https://github.com/awesome-foundation/cfnrain/compare/v1.25.4...v1.25.5) (2026-11-01)
+
+
+### Bug Fixes
+
+* **deploy:** report all unknown parameters and silence ignored ones ([#74](https://github.com/awesome-foundation/cfnrain/issues/74)) ([94d2ad3](https://github.com/awesome-foundation/cfnrain/commit/94d2ad339ff23849c3b9e0a0c2d39d225d45de2e)), closes [#68](https://github.com/awesome-foundation/cfnrain/issues/68)
+* expand all short-form intrinsic tags and keep their source form ([#80](https://github.com/awesome-foundation/cfnrain/issues/80)) ([a91be98](https://github.com/awesome-foundation/cfnrain/commit/a91be9843795e5c81cfbbdbf5748faf615521086))
+* **fmt:** keep comments in templates with CRLF line endings ([#75](https://github.com/awesome-foundation/cfnrain/issues/75)) ([c2023bc](https://github.com/awesome-foundation/cfnrain/commit/c2023bc3d1ec48c09254416f65e018838abfa2ed)), closes [#64](https://github.com/awesome-foundation/cfnrain/issues/64)
+* **pkg:** find the !Rain::S3 Run script with an absolute template path ([#61](https://github.com/awesome-foundation/cfnrain/issues/61)) ([8390718](https://github.com/awesome-foundation/cfnrain/commit/8390718770793fb632dc44a98aef0bd4c7f4abe2)), closes [#60](https://github.com/awesome-foundation/cfnrain/issues/60)
+* **pkg:** honor an absolute Run path and upload again after Run ([#88](https://github.com/awesome-foundation/cfnrain/issues/88)) ([637ab3f](https://github.com/awesome-foundation/cfnrain/commit/637ab3f30db2c0531f48f4c4eb39298b9eb1dbbd)), closes [#60](https://github.com/awesome-foundation/cfnrain/issues/60)
+
 ## [1.25.4](https://github.com/awesome-foundation/cfnrain/compare/v1.25.3...v1.25.4) (2026-10-27)
 
 
